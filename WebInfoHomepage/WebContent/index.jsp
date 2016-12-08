@@ -1,18 +1,54 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/jquery.bpopup.min.js"></script>
+
+<script type="text/javascript">
+ 
+ function call_layer() {
+ 
+ $('#layer_popup').bPopup();
+ 
+ };
+ </script>
+<style type="text/css">
+ 
+.button_style {
+ opacity: 5;
+ display: none;
+ position: relative;
+ padding: 30px;
+ background-color: #fff;
+}
+ 
+.layer_close {
+ position: absolute;
+ right: 3px;
+ top: 1px;
+ padding: 10px;
+ cursor: pointer;
+}
+</style>
 <title>Insert title here</title>
 </head>
 <body>
-zzzzzzzzzzzzzzzzzzzzz
-TEST!!!!!!!!!!!!!!!!!!
+ <input type="button" value="ëˆŒëŸ¬ë°©" onclick="call_layer();"> 
+ 
+ <div id="layer_popup" class="button_style">
+ 
+ <span class="layer_close">ë‹«ê¸°</span>
+ 
+ <div class="content">
+ 
+ë‚˜ëŠ” ì–‘ë™ê·¼ì´ì§€ ë‚´ ë³„ëª…ì€ êµ¬ë¦¬êµ¬ë¦¬ì§€ ë‚´ê°€ ì‚¬ëŠ” ê³³ì€ ê²½ê¸°ë„ êµ¬ë¦¬ì§€ ë‹ˆì–¼êµ´ë„ êµ¬ë¦¬ì§€ 
+ 
+ 
+ </div>
+ </div>
 
-REBRBRBRBRB
-TETSFSLJDSFLJSDLFkj
-ÇÑ½ÂÈÆÀÌ ¾ó¸¥ ¿©ÀÚÄª±¸°¡ »ı°åÀ¸¸éÁÁ°Ú½À´Ï´Ù.
--Áö¶ö¸¶ ¾È»ı°Ü ³ª¸¸»ı±æ°Å¾ß!!!!!!!!!!!!!!!!
 </body>
 </html>

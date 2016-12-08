@@ -47,7 +47,7 @@ public class _index__jsp extends com.caucho.jsp.JavaPage
     javax.servlet.Servlet page = this;
     javax.servlet.jsp.tagext.JspTag _jsp_parent_tag = null;
     com.caucho.jsp.PageContextImpl _jsp_parentContext = pageContext;
-    response.setContentType("text/html; charset=EUC-KR");
+    response.setContentType("text/html; charset=UTF-8");
 
     out.write(_jsp_string0, 0, _jsp_string0.length);
   }
@@ -109,7 +109,7 @@ public class _index__jsp extends com.caucho.jsp.JavaPage
     String resourcePath = loader.getResourcePathSpecificFirst();
     mergePath.addClassPath(resourcePath);
     com.caucho.vfs.Depend depend;
-    depend = new com.caucho.vfs.Depend(appDir.lookup("index.jsp"), -8483552459262747103L, true);
+    depend = new com.caucho.vfs.Depend(appDir.lookup("index.jsp"), 6131590848628001202L, true);
     _caucho_depends.add(depend);
     loader.addDependency(depend);
   }
@@ -144,6 +144,6 @@ public class _index__jsp extends com.caucho.jsp.JavaPage
 
   private final static char []_jsp_string0;
   static {
-    _jsp_string0 = "\r\n<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">\r\n<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=EUC-KR\">\r\n<title>Insert title here</title>\r\n</head>\r\n<body>\r\nzzzzzzzzzzzzzzzzzzzzz\r\nTEST!!!!!!!!!!!!!!!!!!\r\n</body>\r\n</html>".toCharArray();
+    _jsp_string0 = "\r\n<!DOCTYPE>\r\n<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\r\n<script src=\"js/jquery-3.1.1.min.js\"></script>\r\n<script src=\"js/jquery.bpopup.min.js\"></script>\r\n\r\n<script type=\"text/javascript\">\r\n \r\n function call_layer() {\r\n \r\n $('#layer_popup').bPopup();\r\n \r\n };\r\n </script>\r\n<style type=\"text/css\">\r\n \r\n.button_style {\r\n opacity: 5;\r\n display: none;\r\n position: relative;\r\n padding: 30px;\r\n background-color: #fff;\r\n}\r\n \r\n.layer_close {\r\n position: absolute;\r\n right: 3px;\r\n top: 1px;\r\n padding: 10px;\r\n cursor: pointer;\r\n}\r\n</style>\r\n<title>Insert title here</title>\r\n</head>\r\n<body>\r\n <input type=\"button\" value=\"\ub20c\ub7ec\ubc29\" onclick=\"call_layer();\"> \r\n \r\n <div id=\"layer_popup\" class=\"button_style\">\r\n \r\n <span class=\"layer_close\">\ub2eb\uae30</span>\r\n \r\n <div class=\"content\">\r\n \r\n\ub098\ub294 \uc591\ub3d9\uadfc\uc774\uc9c0 \ub0b4 \ubcc4\uba85\uc740 \uad6c\ub9ac\uad6c\ub9ac\uc9c0 \ub0b4\uac00 \uc0ac\ub294 \uacf3\uc740 \uacbd\uae30\ub3c4 \uad6c\ub9ac\uc9c0 \ub2c8\uc5bc\uad74\ub3c4 \uad6c\ub9ac\uc9c0 \r\n \r\n \r\n </div>\r\n </div>\r\n\r\n</body>\r\n</html>".toCharArray();
   }
 }
